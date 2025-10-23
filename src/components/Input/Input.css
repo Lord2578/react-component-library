@@ -1,0 +1,26 @@
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.clear-button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #666;
+  font-size: 14px;
+  user-select: none;
+}
+
+.clear-button:hover {
+  color: #000;
+}
